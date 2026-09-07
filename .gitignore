@@ -1,0 +1,2 @@
+# Files to ignore - let's not save our tracking parameters here. #
+last_used_tracking_settings.json

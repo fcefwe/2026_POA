@@ -99,6 +99,7 @@ The preprocessing pipeline performs:
 ## Output
 
 * Binary particle mask stack suitable for downstream tracking
+* Two files (filename_input1.tiff and filename_input2.tiff) are saved to location of original time-lapse movie. These two files will be requested in Stage 2 (Python). 
 
 ---
 

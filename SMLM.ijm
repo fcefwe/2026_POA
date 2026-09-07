@@ -106,8 +106,8 @@ run("Mean...", "radius=2 stack");
 // Save input1 and input2
 // ============================================================
 
-input1Path = outputDir + "input1.tif";
-input2Path = outputDir + "input2.tif";
+input1Path = outputDir + title + "_input1.tif";
+input2Path = outputDir + title + "_input2.tif";
 
 
 // Delete old files if they already exist,
@@ -146,3 +146,5 @@ close();
 
 selectWindow("DoG");
 close();
+
+showMessage("All done. Input files for Pyhton saved.");
